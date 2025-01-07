@@ -531,18 +531,18 @@ $sm_lang = array(
         'combi_email_subject' => 'IMPORTANT: \'%UP%\' servers UP again, \'%DOWN%\' servers DOWN',
         'combi_webhook_subject' => '\'%UP%\' servers UP again, \'%DOWN%\' servers DOWN',
         'combi_pushover_subject' => '\'%UP%\' servers UP again, \'%DOWN%\' servers DOWN',
-        'combi_email_message' => '<b>The following servers went down:</b><br>%DOWN_SERVERS%<br><b>The following
- servers are up again:</b><br>%UP_SERVERS%',
-        'combi_discord_message' => '<b>The following servers went down:</b><br>%DOWN_SERVERS%<br><b>The following
- servers are up again:</b><br>%UP_SERVERS%',
-        'combi_webhook_message' => '<b>The following servers went down:</b><br>%DOWN_SERVERS%<br><b>The following
- servers are up again:</b><br>%UP_SERVERS%',
-        'combi_pushover_message' => '<b>The following servers went down:</b><br>%DOWN_SERVERS%<br><b>The following
- servers are up again:</b><br>%UP_SERVERS%',
-        'combi_telegram_message' => '<b>The following servers went down:</b><br>%DOWN_SERVERS%<br><b>The following
- servers are up again:</b><br>%UP_SERVERS%',
-        'combi_jabber_message' => '<b>The following servers went down:</b><br>%DOWN_SERVERS%<br><b>The following
- servers are up again:</b><br>%UP_SERVERS%',
+        'combi_email_message' => '<b>เซิร์ฟเวอร์ต่อไปนี้หยุดทำงาน:</b><br>%DOWN_SERVERS%<br><b>เซิร์ฟเวอร์ต่อไปนี้
+ใช้งานได้อีกครั้ง:</b><br>%UP_SERVERS%',
+        'combi_discord_message' => '<b>เซิร์ฟเวอร์ต่อไปนี้หยุดทำงาน:</b><br>%DOWN_SERVERS%<br><b>เซิร์ฟเวอร์ต่อไปนี้
+ใช้งานได้อีกครั้ง:</b><br>%UP_SERVERS%',
+        'combi_webhook_message' => '<b>เซิร์ฟเวอร์ต่อไปนี้หยุดทำงาน:</b><br>%DOWN_SERVERS%<br><b>เซิร์ฟเวอร์ต่อไปนี้
+ใช้งานได้อีกครั้ง:</b><br>%UP_SERVERS%',
+        'combi_pushover_message' => '<b>เซิร์ฟเวอร์ต่อไปนี้หยุดทำงาน:</b><br>%DOWN_SERVERS%<br><b>เซิร์ฟเวอร์ต่อไปนี้
+ใช้งานได้อีกครั้ง:</b><br>%UP_SERVERS%',
+        'combi_telegram_message' => '<b>เซิร์ฟเวอร์ต่อไปนี้หยุดทำงาน:</b><br>%DOWN_SERVERS%<br><b>เซิร์ฟเวอร์ต่อไปนี้
+ใช้งานได้อีกครั้ง:</b><br>%UP_SERVERS%',
+        'combi_jabber_message' => '<b>เซิร์ฟเวอร์ต่อไปนี้หยุดทำงาน:</b><br>%DOWN_SERVERS%<br><b>เซิร์ฟเวอร์ต่อไปนี้
+ใช้งานได้อีกครั้ง:</b><br>%UP_SERVERS%',
     ),
     'login' => array(
         'welcome_usermenu' => 'ยินดีต้อนรับคุณ %user_name%',
