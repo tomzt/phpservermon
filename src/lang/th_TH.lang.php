@@ -352,22 +352,15 @@ LDS: ไดเรกทอรีเป็นบริการไดเรกท
         'authdir_type_adds' => 'AD DS',
         'authdir_type_adlds' => 'AD LDS',
         'authdir_userdomain' => 'โดเมน Active Directory',
-        'authdir_userdomain_description' => 'User domain for Active Directory. This is typically the NETBIOS domain
-        for AD DS and the DNS domain for AD LDS. Not used for OpenLDAP
-        directories.',
-        'authdir_ldapver' => 'LDAP protocol version',
-        'authdir_ldapver_description' => 'Version of the LDAP specification. This is typically Version 3 (default).
-        Version 2 was deprecated in 2003 (RFC3494).',
-        'authdir_ldapfollowref' => 'Follow referrals',
-        'authdir_ldapfollowref_description' => 'Follow referrals if the specified server refers to another server for
-        the required information. Leave unchecked if you are unaware of this
-        functionality.',
-        'authdir_basedn' => 'Base DN*',
-        'authdir_basedn_description' => 'Base distinguished name (DN) of the directory service. E.g.,
-        dc=domain,dc=tld. This is a required field.',
-        'authdir_usernameattrib' => 'Username attribute',
-        'authdir_usernameattrib_description' => 'Attribute used by the directory service to refer to the username of
-        the user.',
+        'authdir_userdomain_description' => 'โดเมนผู้ใช้สำหรับ Active Directory โดยปกติจะเป็นโดเมน NETBIOS สำหรับ AD DS และโดเมน DNS สำหรับ AD LDS ไม่ได้ใช้สำหรับไดเร็กทอรี OpenLDAP',
+        'authdir_ldapver' => 'เวอร์ชันโปรโตคอล LDAP',
+        'authdir_ldapver_description' => 'เวอร์ชันของข้อกำหนด LDAP โดยทั่วไปจะเป็นเวอร์ชัน 3 (ค่าเริ่มต้น) เวอร์ชัน 2 ถูกประกาศยกเลิกในปี 2003 (RFC3494)'
+        'authdir_ldapfollowref' => 'ติดตามการอ้างอิง'
+        'authdir_ldapfollowref_description' => 'ติดตามการอ้างอิงหากเซิร์ฟเวอร์ที่ระบุอ้างถึงเซิร์ฟเวอร์อื่นสำหรับข้อมูลที่ต้องการ ปล่อยให้ไม่ได้เลือกไว้หากคุณไม่ทราบเกี่ยวกับฟังก์ชันการทำงานนี้'
+        'authdir_basedn' => 'Base DN*'
+        'authdir_basedn_description' => 'Distinguished name (DN) หลักของบริการไดเร็กทอรี เช่น dc=domain,dc=tld นี่เป็นฟิลด์ที่จำเป็นต้องกรอก'
+        'authdir_usernameattrib' => 'แอตทริบิวต์ชื่อผู้ใช้'
+        'authdir_usernameattrib_description' => 'แอตทริบิวต์ที่ใช้โดยบริการไดเร็กทอรีเพื่ออ้างอิงถึงชื่อผู้ใช้ของผู้ใช้'
         'authdir_groupnameattrib' => 'Group name attribute',
         'authdir_groupnameattrib_description' => 'Attribute used by the directory service to refer to the group name
         of a group. This is used to check for group membership.',
