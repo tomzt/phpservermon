@@ -356,11 +356,11 @@ LDS: ไดเรกทอรีเป็นบริการไดเรกท
         'authdir_ldapver' => 'เวอร์ชันโปรโตคอล LDAP',
         'authdir_ldapver_description' => 'เวอร์ชันของข้อกำหนด LDAP โดยทั่วไปจะเป็นเวอร์ชัน 3 (ค่าเริ่มต้น) เวอร์ชัน 2 ถูกประกาศยกเลิกในปี 2003 (RFC3494)',
         'authdir_ldapfollowref' => 'ติดตามการอ้างอิง',
-        'authdir_ldapfollowref_description' => 'ติดตามการอ้างอิงหากเซิร์ฟเวอร์ที่ระบุอ้างถึงเซิร์ฟเวอร์อื่นสำหรับข้อมูลที่ต้องการ ปล่อยให้ไม่ได้เลือกไว้หากคุณไม่ทราบเกี่ยวกับฟังก์ชันการทำงานนี้'
-        'authdir_basedn' => 'Base DN*'
-        'authdir_basedn_description' => 'Distinguished name (DN) หลักของบริการไดเร็กทอรี เช่น dc=domain,dc=tld นี่เป็นฟิลด์ที่จำเป็นต้องกรอก'
-        'authdir_usernameattrib' => 'แอตทริบิวต์ชื่อผู้ใช้'
-        'authdir_usernameattrib_description' => 'แอตทริบิวต์ที่ใช้โดยบริการไดเร็กทอรีเพื่ออ้างอิงถึงชื่อผู้ใช้ของผู้ใช้'
+        'authdir_ldapfollowref_description' => 'ติดตามการอ้างอิงหากเซิร์ฟเวอร์ที่ระบุอ้างถึงเซิร์ฟเวอร์อื่นสำหรับข้อมูลที่ต้องการ ปล่อยให้ไม่ได้เลือกไว้หากคุณไม่ทราบเกี่ยวกับฟังก์ชันการทำงานนี้',
+        'authdir_basedn' => 'Base DN*',
+        'authdir_basedn_description' => 'Distinguished name (DN) หลักของบริการไดเร็กทอรี เช่น dc=domain,dc=tld นี่เป็นฟิลด์ที่จำเป็นต้องกรอก',
+        'authdir_usernameattrib' => 'แอตทริบิวต์ชื่อผู้ใช้',
+        'authdir_usernameattrib_description' => 'แอตทริบิวต์ที่ใช้โดยบริการไดเร็กทอรีเพื่ออ้างอิงถึงชื่อผู้ใช้ของผู้ใช้',
         'authdir_groupnameattrib' => 'Group name attribute',
         'authdir_groupnameattrib_description' => 'Attribute used by the directory service to refer to the group name
         of a group. This is used to check for group membership.',
